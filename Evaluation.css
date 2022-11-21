@@ -1,0 +1,37 @@
+table#t01 {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color:#E4F9EA;
+}
+table#t01 tr:nth-child(odd) {
+   
+   background-color: #9DE7B1;
+}
+
+table#t01 th {
+    background-color: #9DE7B1;
+    color: black;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+th,td {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+input{
+    margin: auto; 
+    /*setting margin to auto of the cheeckbox*/
+    display: flex;/*Flex box property*/
+  }

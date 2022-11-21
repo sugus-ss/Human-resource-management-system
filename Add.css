@@ -1,0 +1,74 @@
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    background-color: none;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    background-color: #E4F9EA;
+    max-width: 300px;
+    padding: 70px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 590px;
+    height: 150px;
+    border: 1px solid #22CC51;
+    margin-top: 10px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #22CC51;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    float: left;  
+    border-radius: 12px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: #FF616D;
+    width: 40%;
+    float: right;
+    border-radius: 12px;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

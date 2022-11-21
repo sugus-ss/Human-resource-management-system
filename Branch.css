@@ -1,0 +1,32 @@
+.type1 {
+    width :90%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.type1, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 13px;
+}
+.td{
+  height: 550px;
+  text-align: center;
+}
+
+#t01 th:nth-child(odd), td:nth-child(odd){
+  background-color: #9DE7B1;
+}
+
+#t01 th:nth-child(even), td:nth-child(even){
+  background-color: #E4F9EA;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
